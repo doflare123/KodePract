@@ -1,0 +1,103 @@
+.container {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    color: #ffffff;
+  }
+  
+
+.user-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .user-detail {
+    display: flex;
+    flex-direction: column;
+    background-color: #F7F7F8;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .back-button {
+    align-self: flex-start;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .user-avatar-large {
+    width: 100%;
+    height: 30%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .user-name-large {
+    font-size: 22px;
+    font-weight: bold;
+    color: #111;
+    margin: 10px 0 5px;
+  }
+  
+  .user-tag {
+    color: grey;
+    font-size: 16px;
+  }
+  
+  .user-department {
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 15px;
+  }
+  
+  .user-phone {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .user-avatar-large {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+
+  .birthday {
+    margin-left: 10px;
+    flex-grow: 1;
+    color: black;
+  }
+  
+  .age {
+    color: grey;
+    white-space: nowrap;
+  }
+  
+  .user-phone {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+  }
+
+  .user-info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Чтобы тянулось на всю ширину */
+    padding: 10px 0;
+  }
+  
