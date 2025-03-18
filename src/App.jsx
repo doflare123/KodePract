@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<MainPage />} />
+        <Route path="/KodePract/" element={<MainPage />} />
         <Route path="/user/:id" element={<UserDetail />} />
       </Routes>
     </Router>
