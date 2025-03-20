@@ -166,7 +166,7 @@
 }
 
 .sort-modal input[type="radio"] {
-  accent-color: #7b61ff; /* Фиолетовый цвет, как на скриншоте */
+  accent-color: #7b61ff;
   transform: scale(1.2);
 }
 
